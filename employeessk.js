@@ -75,4 +75,4 @@ async function fetchCounters() {
 
 // initial load + polling
 fetchCounters();
-setInterval(fetchCounters, 1000);
+setInterval(fetchCounters, 10000);
